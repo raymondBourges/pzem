@@ -32,6 +32,8 @@ try:
         print("Aucune réponse.")
 except Exception as e:
     print("Erreur : " + str(e))
+    print("data : ")
+    print(data)
 
 # Assurez-vous de fermer la connexion après avoir terminé
 client.close()
